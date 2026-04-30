@@ -1,33 +1,54 @@
-# 🎯 Graded Assessment Builder (v1.0)
-### The "No-Authoring Tool" Solution for Rapid SCORM Assessments
+# 🎯 Graded Assessment Creator for SCORM
+### Build LMS-Ready Assessments Without an Authoring Tool
 
-[![No-Internet Required](https://img.shields.io/badge/Offline-Works_Locally-brightgreen)](#)
+🚀 **[ACCESS THE LIVE TOOL HERE](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)**
+
+[![Project Link](https://img.shields.io/badge/GitHub-linuxsunil-blue?logo=github)](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM)
+[![Offline Capable](https://img.shields.io/badge/Offline-100%25-brightgreen)](#)
 [![Zero API Keys](https://img.shields.io/badge/Privacy-Zero_API_Keys-blue)](#)
 [![SCORM Compatible](https://img.shields.io/badge/LMS-SCORM_1.2_/_2004-orange)](#)
 
-Traditional authoring tools can often be a bottleneck for rapid quiz development. This tool allows Instructional Designers to bypass heavy software and build complex, LMS-ready assessments directly in the browser using a "Learning-as-Code" philosophy.
+**Graded Assessment Creator for SCORM** is a browser-based, single-file environment designed to eliminate the technical overhead of traditional authoring software. It transforms raw text into professional, brandable, and LMS-ready SCORM packages in seconds.
 
-## ✨ Key Features
-*   **Privacy-First & Offline:** Runs entirely locally with **zero API keys** and no internet connection required.
-*   **Intelligent Parsing:** Mix MCQ (single choice) and MMCQ (multiple choice) questions using simple Markdown-style formatting.
-*   **Advanced Logic:** Supports randomized difficulty pools (Easy/Medium/Hard), question shuffling, and option shuffling.
-*   **Dual-Output Export:** 
-    *   **LMS Build:** A clean, production-ready package for learners.
-    *   **QA Build:** Includes an exclusive toolbar with **per-question reset controls** and live score tracking for high-speed testing[cite: 2].
-*   **Brand Customization:** Real-time UI color syncing to match your corporate identity[cite: 2].
+---
+
+## 🚀 Key Functionalities
+
+*   **100% Local & Private:** The tool operates entirely within your browser's local memory—no data leaves your machine, and it requires **zero API keys** for its core workflow.
+*   **Intelligent Text-to-Quiz Parsing:** Supports Multiple Choice (MCQ) and Multiple-Response (MMCQ) questions using an intuitive plain-text syntax.
+*   **Sophisticated Bank Logic:** Includes randomized questions, option shuffling, and multi-tier **difficulty pools** (Easy, Medium, Hard, and General).
+*   **The Dual-Output Workflow:**
+    *   📦 **LMS Build:** A production-ready package optimized for learner deployment.
+    *   🧪 **QA Build:** A specialized version containing a **QA Toolbar** that allows you to **reset individual questions** mid-quiz to test feedback loops instantly.
+*   **Articulate Rise Ready:** Exports specifically formatted HTML designed for seamless embedding into **Rise 360** blocks.
+*   **Real-time Branding:** Features integrated primary and accent color pickers that sync with the assessment UI in real-time.
+
+---
 
 ## 🛠 Workflow
-1.  **Input:** Structure your questions using the built-in guide (Question > Options > Feedback)[cite: 2].
-2.  **Paste:** Drop raw text into the builder; the tool parses and validates the logic in real-time[cite: 2].
-3.  **Preview:** Interact with your assessment in a live iframe before exporting[cite: 2].
-4.  **Export:** Download as a standalone HTML file, a Rise 360 embed code, or a full SCORM 1.2/2004 package[cite: 2].
 
-## ⚖️ Featured Research: Weighted Scoring (v1.1)
-We are currently exploring **Weighted Scoring** logic. This will allow designers to assign different point values to questions based on their criticality (e.g., a "Safety" question carrying 5 points while a "Knowledge" question carries 1). 
+1.  **Paste:** Drop your raw question bank into the editor.
+2.  **Logic:** Define pass marks, attempts, and difficulty draw counts.
+3.  **QA:** Use the interactive preview and reset tools to verify interactions.
+4.  **Export:** Download your SCORM .zip and upload it directly to your LMS.
 
-## 👤 About the Creator
-**[Sunil Iyer](https://www.linkedin.com/in/sunil-iyer-b545964/)** is an Instructional Designer and Project Manager rolled into one. With a focus on delivery excellence and a passion for "Learning-as-Code," Sunil seeks technical solutions to resolve age-old problems in e-learning—leveraging AI to empower non-coders to build sophisticated, functional tools.
+---
+
+## 🗺️ Roadmap (v1.1)
+
+We are currently seeking community feedback on the following planned features:
+*   ⚖️ **Weighted Scoring:** Assign specific point values (e.g., 5pts for "Critical" vs. 1pt for "Basic") directly in the question syntax.
+*   🧩 **New Question Types:** Matching interactions and True/False logic.
+*   🖼️ **Base64 Media:** Local-only image embedding to keep the entire package offline.
+
+---
+
+## 👤 About the Architect
+
+**[Sunil Iyer](https://www.linkedin.com/in/sunil-iyer-b545964/)** is an Instructional Designer and Project Manager rolled into one. I focus on finding technical solutions for age-old delivery problems in e-learning—leveraging AI to prove that "non-coders" can build sophisticated, high-impact tools.
+
+---
 
 ## 🤝 Credits & Inspiration
-*   **The Vision:** Inspired by **Tim Slade**, who suggested that a "no-content authoring tool" environment might be closer than we think.
-*   **Validation:** A special thanks to [NRZ Malik](https://www.linkedin.com/in/nrzmalik/) for his indispensable [SCORM tester](https://www.ai4id.community/track-lab-lms-download/), which was vital in ensuring the tracking and session logic is LMS-compliant.
+
+*   **Validation:** A special thank you to **[NRZ Malik](https://www.linkedin.com/in/nrzmalik/)** for his indispensable **[SCORM tester](https://www.ai4id.community/track-lab-lms-download/)**, which was vital in ensuring the tracking and session logic is LMS-compliant.
