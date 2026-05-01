@@ -29,7 +29,7 @@
 
 1.  **📝 Paste:** Drop your raw question bank into the editor.
 2.  **⚙️ Logic:** Define pass marks, attempts, and difficulty draw counts.
-3.  **🔬 Qa:** Use the interactive preview and reset tools to verify interactions.
+3.  **🔬 QA:** Use the interactive preview and reset tools to verify interactions.
 4.  **📥 Export:** Download your production-ready SCORM .zip and upload it directly to your lms.
 
 ---
@@ -51,4 +51,4 @@ We are currently seeking community feedback on the following planned features:
 
 ## 🤝 Credits & inspiration
 
-*   **Validation:** A special thank you to **[NRZ Malik](https://www.linkedin.com/in/nrzmalik/)** for his indispensable **[SCORM tester](https://www.ai4id.community/track-lab-lms-download/)**, which was vital in ensuring the tracking and session logic is lms-compliant.
+*   **Validation:** A special thank you to **[NRZ Malik](https://www.linkedin.com/in/nrzmalik/)** for his indispensable **[SCORM tester](https://www.ai4id.community/track-lab-lms-download/)**, which was vital in ensuring the tracking and session logic is LMS-compliant.
