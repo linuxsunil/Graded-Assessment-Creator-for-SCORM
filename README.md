@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Graded+Assessment+Creator;for+SCORM+%F0%9F%8E%AF;Raw+text+%E2%86%92+SCORM+.zip+in+seconds;100%25+Offline.+Zero+API+Keys." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=0F172A&center=true&vCenter=true&width=700&lines=Graded+Assessment+Creator;for+SCORM+%F0%9F%8E%AF;Raw+text+%E2%86%92+SCORM+.zip+in+seconds;100%25+Offline.+Zero+API+Keys." alt="Typing SVG" />
 
 <br/>
 
-[![Live Tool](https://img.shields.io/badge/▶%20LAUNCH%20LIVE%20TOOL-00FF41?style=for-the-badge&logoColor=black)](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)
+[![Live Tool](https://img.shields.io/badge/▶%20LAUNCH%20LIVE%20TOOL-2563EB?style=for-the-badge&logoColor=white)](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)
 [![GitHub](https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM)
 
 <br/>
@@ -18,50 +18,56 @@
 
 <br/>
 
-> **A browser-based, single-file tool that transforms raw question text into production-ready SCORM packages.**  
+> **A browser-based, single-file tool that transforms raw question text into production-ready SCORM packages.**
 > No authoring software. No subscriptions. No data leaving your machine. Ever.
 
 </div>
 
 ---
 
-## `$ ./assessment-creator --boot`
+## The Number That Changes Everything
+
+> A skilled Storyline 360 developer takes **6–8 hours** to build a 10-question graded assessment — designing slides, programming variables, wiring pass/fail logic, QA-ing interactions, and packaging it for Rise 360 or standalone LMS delivery.
+>
+> **This tool does it in under 60 seconds.**
+>
+> Same output. SCORM-compliant. LMS-ready. Embeds directly in Rise 360 as a block, or deploys standalone in any LMS.
+
+---
+
+## Boot Sequence
 
 ```
-╔══════════════════════════════════════════════════════╗
-║  Graded Assessment Creator for SCORM  v1.0           ║
-╠══════════════════════════════════════════════════════╣
-║  ✔  Parser loaded        MCQ + MMCQ                  ║
-║  ✔  Difficulty pools     Easy | Medium | Hard | Gen  ║
-║  ✔  SCORM wrapper        1.2 / 2004                  ║
-║  ✔  QA toolbar           per-question reset          ║
-║  ✔  Branding engine      real-time colour sync       ║
-║  ✔  Privacy mode         ZERO server calls           ║
-║                                                      ║
-║  → STATUS: READY.  Zero data leaks.                  ║
-╚══════════════════════════════════════════════════════╝
+Graded Assessment Creator for SCORM  v1.0
+------------------------------------------
+  Parser loaded      MCQ + MMCQ
+  Difficulty pools   Easy | Medium | Hard | General
+  SCORM wrapper      1.2 / 2004
+  QA toolbar         per-question reset
+  Branding engine    real-time colour sync
+  Privacy mode       ZERO server calls
+
+  STATUS: READY. Zero data leaks.
 ```
 
 ---
 
-## ⚡ Why This Exists
+## Why This Exists
 
-Every L&D professional knows this pain:
-
-```
-The Old Way                        The New Way
-─────────────────────────          ──────────────────────────
-💸 Expensive authoring software    🆓 One HTML file. Free forever.
-☁️  Cloud-dependent tools          🔒 100% browser-local. No cloud.
-⏳ Hours of manual QA              🧪 Built-in QA mode with reset
-🎨 Generic LMS styling             🎨 Real-time brand colour picker
-🔑 API keys everywhere             ⚡ Zero API keys. Zero accounts.
-📦 Complex export workflows        📥 Paste → Configure → Export. Done.
-```
+| | Storyline 360 (Traditional) | This Tool |
+|:--|:--|:--|
+| ⏱️ Time for 10 questions | 6–8 hours (skilled dev) | **Under 60 seconds** |
+| 💸 Cost | Subscription required | **Free forever** |
+| ☁️ Data privacy | Cloud-dependent | **100% local** |
+| 🔑 Setup | Software install + licence | **Open in browser** |
+| 🧪 QA process | Re-run full quiz each time | **Reset per question** |
+| 📦 Output | SCORM package | **SCORM package** |
+| 🔗 Rise 360 | Embeds as block | **Embeds as block** |
+| 🎨 Branding | Slide-by-slide edits | **Live colour picker** |
 
 ---
 
-## 🛠️ Feature Matrix
+## Feature Matrix
 
 | Feature | Description |
 |:--------|:------------|
@@ -76,20 +82,20 @@ The Old Way                        The New Way
 
 ---
 
-## ✍️ Question Syntax
+## Question Syntax
 
 Write questions in plain text — no code, no special tools required:
 
 ```
-# ── MCQ — Single Correct Answer ──────────────────────────
+# MCQ — Single Correct Answer
 Q: Which SCORM version introduced Tin Can foundations?
 A) SCORM 1.2
 B) SCORM 2004 4th Ed
-*C) xAPI (Tin Can)        ← prefix * marks the correct answer
+*C) xAPI (Tin Can)
 D) AICC
 POOL: Medium
 
-# ── MMCQ — Multiple Correct Answers ──────────────────────
+# MMCQ — Multiple Correct Answers
 Q: Which are valid Bloom's Taxonomy levels? [multi]
 *A) Apply
 *B) Analyse
@@ -98,41 +104,41 @@ C) Absorb
 POOL: Hard
 ```
 
----
-
-## 🔄 The Workflow
-
-```
-  ┌──────────┐     ┌─────────────┐     ┌──────────┐     ┌──────────┐
-  │  📝 PASTE│────▶│ ⚙️ CONFIGURE│────▶│  🔬 QA  │────▶│📥 EXPORT │
-  │          │     │             │     │          │     │          │
-  │ Drop your│     │ Pass marks  │     │ Preview  │     │ Download │
-  │ question │     │ Attempts    │     │ Reset    │     │ SCORM    │
-  │ bank     │     │ Pool counts │     │ questions│     │ .zip →   │
-  │          │     │             │     │ per tier │     │ LMS ✓    │
-  └──────────┘     └─────────────┘     └──────────┘     └──────────┘
-```
-
-**Four steps. That's the entire workflow.**
+> Prefix `*` marks correct answers. Add `[multi]` for multiple-select questions. That's the entire syntax.
 
 ---
 
-## 📊 By The Numbers
+## The Workflow
 
-```
-┌─────────────────────────────────────────────────────┐
-│   1 file     →  entire tool. zero dependencies      │
-│   0 API keys →  zero required. ever.                │
-│   2 modes    →  LMS build + QA build                │
-│   4 pools    →  Easy · Medium · Hard · General      │
-│   2 versions →  SCORM 1.2 and SCORM 2004            │
-│   ∞ questions→  unlimited bank depth                │
-└─────────────────────────────────────────────────────┘
-```
+**Step 1 — Paste**
+Drop your raw question bank into the editor.
+
+**Step 2 — Configure**
+Set pass mark, number of attempts, and draw counts per difficulty pool.
+
+**Step 3 — QA**
+Use the interactive preview. The QA build lets you reset individual questions without replaying the full pool — a first in browser-based SCORM tooling.
+
+**Step 4 — Export**
+Download the production SCORM `.zip`. Upload to your LMS, or embed as a Rise 360 block. Done.
 
 ---
 
-## 🗺️ Roadmap — v1.1
+## By The Numbers
+
+| Metric | Value |
+|:-------|:------|
+| Files in the tool | 1 |
+| API keys required | 0 |
+| Export modes | 2 (LMS Build + QA Build) |
+| Difficulty pools | 4 (Easy · Medium · Hard · General) |
+| SCORM versions supported | 2 (1.2 and 2004) |
+| Time for 10 questions | Under 60 seconds |
+| Traditional Storyline equivalent | 6–8 hours |
+
+---
+
+## Roadmap — v1.1
 
 > Community feedback shapes what gets built next. [Open an issue](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM/issues) to vote or suggest.
 
@@ -142,21 +148,21 @@ POOL: Hard
 
 ---
 
-## 👤 The Architect
+## The Architect
 
 **[Sunil Iyer](https://www.linkedin.com/in/sunil-iyer-b545964/)** — Senior Instructional Designer with 10+ years building eLearning across AI/ML (Coursera, Udemy), compliance training, and enterprise LMS deployments.
 
-This tool was born from real production frustration — and built to prove that "non-coders" can ship sophisticated, high-impact tooling by leveraging browser-native capabilities and AI.
+This tool was born from real production frustration — built to prove that "non-coders" can ship sophisticated, high-impact tooling by leveraging browser-native capabilities and AI.
 
 ---
 
-## 🤝 Credits
+## Credits
 
 Huge thanks to **[NRZ Malik](https://www.linkedin.com/in/nrzmalik/)** for his invaluable [SCORM Tester](https://www.ai4id.community/track-lab-lms-download/) — essential in validating tracking and session compliance across LMS platforms.
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use, fork, and build upon.
 
