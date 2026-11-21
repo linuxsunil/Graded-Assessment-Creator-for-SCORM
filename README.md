@@ -1,54 +1,175 @@
-# 🎯 [Graded Assessment Creator for SCORM](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)
-### High-efficiency LMS assessment development
+🎯 Open Source · Single File · Zero Setup
 
-✨ [Access the live tool here](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)
+# Graded Assessment Creator for SCORM
 
-[![Project Link](https://img.shields.io/badge/GitHub-linuxsunil-blue?logo=github)](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM)
-[![Offline Capable](https://img.shields.io/badge/Offline-100%25-brightgreen)](#)
-[![Zero API Keys](https://img.shields.io/badge/Privacy-Zero_API_Keys-blue)](#)
-[![SCORM Compatible](https://img.shields.io/badge/LMS-SCORM_1.2_/_2004-orange)](#)
+$ transform raw_text → production_scorm.zip in seconds
 
-**[Graded Assessment Creator for SCORM](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/)** is a browser-based, single-file environment designed to eliminate the technical overhead of traditional authoring software. It transforms raw text into professional, brandable, and LMS-ready SCORM packages in seconds.
+🔒 100% Offline 📦 SCORM 1.2 / 2004 ⚡ Zero API Keys 🎨 Real-Time Branding 🧪 QA Mode Built-In
 
----
+[▶ Launch Tool](https://linuxsunil.github.io/Graded-Assessment-Creator-for-SCORM/) [⟨/⟩ View Source](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM)
 
-## 🛠️ Key functionalities
+assessment-creator — bash
 
-*   **🔒 100% local & private:** The tool operates entirely within your browser's local memory—no data leaves your machine, and it requires **zero api keys** for its core workflow.
-*   **🧠 Intelligent text-to-quiz parsing:** Supports Multiple Choice (MCQ) and Multiple-Response (MMCQ) questions using an intuitive plain-text syntax.
-*   **🔀 Sophisticated bank logic:** Includes randomized questions, option shuffling, and multi-tier **difficulty pools** (Easy, Medium, Hard, and General).
-*   **📦 Dual-output workflow:**
-    *   **LMS build:** A production-ready package optimized for learner deployment that fully incorporates randomization and question pool logic.
-    *   **QA build:** A specialized version (output as HTML or SCORM) containing a **qa toolbar** that allows you to **reset individual questions** mid-quiz. This enables QA to test a single question from all aspects in one go, rather than repeating the entire pool.
-*   **📟 Universal LMS compatibility:** The SCORM output can be added as a separate card or block on any LMS. It includes the necessary coding to ensure Pass/Fail data is sent accurately to your platform.
-*   **🎨 Real-time branding:** Features integrated primary and accent color pickers that sync with the assessment ui in real-time.
+` $ ./graded-assessment-creator --info Initialising engine... ✔ Parser loaded (MCQ + MMCQ) ✔ Difficulty pools (Easy | Medium | Hard | General) ✔ SCORM wrapper (1.2 / 2004) ✔ QA toolbar (per-question reset) ✔ Branding engine (real-time colour sync) → Status: READY. Zero server calls. Zero data leaks. $ `
 
----
+1
 
-## ⚙️ Workflow
+file. entire tool.
 
-1.  **📝 Paste:** Drop your raw question bank into the editor.
-2.  **⚙️ Logic:** Define pass marks, attempts, and difficulty draw counts.
-3.  **🔬 QA:** Use the interactive preview and reset tools to verify interactions.
-4.  **📥 Export:** Download your production-ready SCORM .zip and upload it directly to your lms.
+0
 
----
+API keys needed
 
-## 🗺️ Roadmap (v1.1)
+2
 
-We are currently seeking community feedback on the following planned features:
-*   ⚖️ **Weighted scoring:** Assign specific point values (e.g., 5pts for "Critical" vs. 1pt for "Basic") directly in the question syntax.
-*   🧩 **New question types:** Matching interactions and true/false logic.
-*   🖼️ **Media support:** Local-only image embedding to keep the entire package offline.
+export modes
 
----
+∞
 
-## 👤 About the architect
+question pools
 
-**[Sunil Iyer](https://www.linkedin.com/in/sunil-iyer-b545964/)** is an Instructional Designer and Project Manager rolled into one. I focus on finding technical solutions for age-old delivery problems in e-learning—leveraging AI to prove that "non-coders" can build sophisticated, high-impact tools.
+1.2
 
----
+& 2004 SCORM
 
-## 🤝 Credits & inspiration
+// 01 — what it is
 
-*   **Validation:** A special thank you to **[NRZ Malik](https://www.linkedin.com/in/nrzmalik/)** for his indispensable **[SCORM tester](https://www.ai4id.community/track-lab-lms-download/)**, which was vital in ensuring the tracking and session logic is LMS-compliant.
+## No authoring software. No subscriptions. Just results.
+
+A browser-based, single-file environment that eliminates the technical overhead of traditional authoring tools. Paste raw question text, configure logic, QA in seconds, download a production-ready SCORM package — and upload directly to any LMS.
+
+🧠
+
+Intelligent Text Parser
+
+Paste plain-text question banks in a simple syntax. MCQ and Multiple-Response (MMCQ) support out of the box, no markdown gymnastics required.
+
+🎲
+
+Difficulty Pool Logic
+
+Multi-tier randomization across Easy, Medium, Hard, and General pools. Configure draw counts per tier for adaptive, never-the-same assessments.
+
+📦
+
+Dual-Output Export
+
+**LMS Build:** production-ready .zip. **QA Build:** HTML or SCORM with a full reset toolbar — test individual questions without replaying the whole pool.
+
+🔒
+
+100% Local & Private
+
+Everything runs inside your browser's memory. No data leaves your machine. No accounts, no cloud, no tracking.
+
+📡
+
+Universal LMS Tracking
+
+Accurate Pass/Fail and completion data sent to your LMS every time. Compatible with Moodle, Cornerstone, Docebo, TalentLMS and more.
+
+🎨
+
+Real-Time Branding
+
+Primary and accent colour pickers that sync the assessment UI live as you pick — preview exactly what learners will see before export.
+
+// 02 — question syntax
+
+## Write questions, not code.
+
+\# MCQ — Single Correct Answer\
+Q: Which SCORM version introduced Tin Can foundations?\
+A) SCORM 1.2\
+B) SCORM 2004 4th Ed\
+\*C) xAPI (Tin Can) ← prefix * marks correct\
+D) AICC\
+POOL: Medium\
+\
+\# MMCQ — Multiple Correct Answers\
+Q: Which are valid Bloom's levels? \[multi\]\
+\*A) Apply\
+\*B) Analyse\
+C) Absorb\
+\*D) Evaluate\
+POOL: Hard
+
+// 03 — workflow
+
+## Four steps. Done.
+
+01
+
+📝
+
+Paste
+
+Drop your raw question bank into the editor
+
+02
+
+⚙️
+
+Configure
+
+Set pass marks, attempts, and pool draw counts
+
+03
+
+🔬
+
+QA
+
+Preview interactions, reset individual questions
+
+04
+
+📥
+
+Export
+
+Download SCORM .zip, upload to LMS. Done.
+
+// 04 — roadmap v1.1
+
+## What's coming — your feedback shapes it.
+
+- ⚖️
+
+  Weighted Scoring
+
+  Assign point values directly in question syntax — 5pts for "Critical" vs 1pt for "Basic"
+- 🧩
+
+  New Interaction Types
+
+  Matching interactions and true/false logic — expanding beyond MCQ/MMCQ
+- 🖼️
+
+  Media Support
+
+  Local-only image embedding to keep the entire package offline and portable
+
+👉 Open an [issue on GitHub](https://github.com/linuxsunil/Graded-Assessment-Creator-for-SCORM/issues) to vote on features or suggest new ones.
+
+// 05 — the architect
+
+👤
+
+Sunil Iyer
+
+// Instructional Designer · Tool Builder · 10+ yrs ID
+
+Senior Instructional Designer focused on finding technical solutions for age-old eLearning delivery problems — proving that "non-coders" can build sophisticated, high-impact tools. This project was born from real production pain points.
+
+[→ linkedin.com/in/sunil-iyer-b545964](https://www.linkedin.com/in/sunil-iyer-b545964/)
+
+🙏
+
+**NRZ Malik** — Special thanks for the indispensable [SCORM Tester](https://www.ai4id.community/track-lab-lms-download/), vital in validating tracking and session compliance across LMS platforms.
+
+GRADED ASSESSMENT CREATOR FOR SCORM
+
+MIT Licensed · Built in the browser, for the browser · No install required
+
+★ Star on GitHub if this saved you hours of authoring tool frustration ★
